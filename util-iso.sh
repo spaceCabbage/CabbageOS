@@ -57,7 +57,7 @@ trap_exit() {
 
 generate_motd() {
     cat << 'EOF' > ${src_dir}/archiso/airootfs/etc/motd
-This ISO is based on ArchLinux ISO modified to provide Installation Environment for [38;2;23;147;209mCachyOS[0m.
+This ISO is based on CachyOS/ArchLinux ISO modified to provide Installation Environment for [38;2;23;147;209mCabbageOS[0m.
 https://cachyos.org
 
 CachyOS Archiso Sources:
@@ -69,11 +69,11 @@ https://gitlab.archlinux.org/archlinux/archiso
 Calamares is used as GUI installer:
 https://github.com/calamares/calamares
 
-Live environment will start now and let you install [38;2;23;147;209mCachyOS[0m to disk.
+Live environment will start now and let you install [38;2;23;147;209mCabbageOS[0m to disk.
 
 Getting help at the forum: https://discuss.cachyos.org
 
-Welcome to your [38;2;23;147;209mCachyOS[0m!
+Welcome to your [38;2;23;147;209mCabbageOS[0m!
 
 [41m [41m [41m [40m [44m [40m [41m [46m [45m [41m [46m [43m [41m [44m [45m [40m [44m [40m [41m [44m [41m [41m [46m [42m [41m [44m [43m [41m [45m [40m [40m [44m [40m [41m [44m [42m [41m [46m [44m [41m [46m [47m [0m
 EOF

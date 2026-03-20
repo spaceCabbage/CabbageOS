@@ -1,0 +1,9 @@
+[Keyboard]
+NumLock=0
+
+[Libinput][1739][52934][SYNA801A:00 06CB:CEC6 Touchpad]
+ClickMethod=2
+NaturalScroll=true
+
+[Mouse]
+cursorTheme=volantes_cursors

@@ -1,0 +1,162 @@
+- name: "CabbageOS Foundation (Required)"
+  description: "Essential packages for CabbageOS dotfiles and shell environment. These are mandatory."
+  critical: true
+  hidden: false
+  selected: true
+  immutable: true
+  packages:
+    - git
+    - curl
+    - wget
+    - tmux
+    - zoxide
+    - fzf
+    - neovim
+    - eza
+    - ripgrep
+    - bat
+    - jq
+    - duf
+    - starship
+    - direnv
+    - fastfetch
+    - ttf-jetbrains-mono-nerd
+    - ttf-meslo-nerd
+    - ttf-firacode-nerd
+    - bash-completion
+    - fd
+    - plocate
+    - man-db
+    - man-pages
+    - openssh
+    - adobe-source-han-sans-he-fonts
+    - culmus
+    - noto-fonts-hebrew
+    - aspell-he
+    - hunspell-he
+    - libyui-ncurses-pkg-he
+
+- name: "Development Ecosystems"
+  description: "Full environments for coding and software development."
+  critical: false
+  hidden: false
+  selected: true
+  expanded: true
+  subgroups:
+    - name: "Editors & CLI Tools"
+      packages:
+        - visual-studio-code-bin
+        - lazygit
+    - name: "Languages & Runtimes"
+      packages:
+        - go
+        - rustup
+        - python
+        - python-pip
+        - python-venv
+        - uv
+        - bun
+        - nvm
+    - name: "Containers & Virtualization"
+      packages:
+        - docker
+        - docker-compose
+        - podman
+        - podman-compose
+        - qemu-full
+        - virt-manager
+
+- name: "SDR & Electronics"
+  description: "Software Defined Radio and signal processing tools."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gnuradio
+    - gqrx
+    - sdrpp-git
+    - rtl-sdr
+    - hackrf
+    - soapysdr-git
+    - limesuite
+    - kalibrate-rtl-git
+
+- name: "OSINT & Network Security"
+  description: "Information gathering, packet analysis, and security auditing tools."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - nmap
+    - wireshark-qt
+    - aircrack-ng
+    - bettercap
+    - metasploit
+    - sn0int
+    - theharvester
+    - sherlock
+    - whois
+    - bind-tools
+    - mtr
+    - masscan
+    - ipcalc
+    - net-tools
+
+- name: "Office & Productivity"
+  description: "Suite for document editing and office tasks."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - onlyoffice-bin
+
+- name: "Communication & Web"
+  description: "Browsers and chat applications."
+  critical: false
+  hidden: false
+  selected: true
+  packages:
+    - brave-bin
+    - firefox
+    - chromium
+    - telegram-desktop
+    - discord
+    - spotify
+
+- name: "Graphics & Multimedia"
+  description: "Design and media production software."
+  critical: false
+  hidden: false
+  selected: false
+  subgroups:
+    - name: "Design & Arts"
+      packages:
+        - inkscape
+        - gimp
+        - blender
+        - freecad
+        - godot
+    - name: "Media Production"
+      packages:
+        - obs-studio
+        - vlc
+        - vlc-plugins-all
+        - haruna
+        - mixxx
+        - flightgear-appimage
+
+- name: "System Utilities"
+  description: "System management and specialized network tools."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - glow
+    - glances
+    - tailscale
+    - speedtest-cli
+    - btrfs-assistant
+    - snapper
+    - cmatrix
+    - genact
+    - htop

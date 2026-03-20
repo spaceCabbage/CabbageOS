@@ -1,10 +1,10 @@
-NAME="CachyOS"
-PRETTY_NAME="CachyOS"
+NAME="CabbageOS"
+PRETTY_NAME="CabbageOS"
 ID=arch
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
-HOME_URL="https://cachyos.org"
-DOCUMENTATION_URL="https://wiki.cachyos.org/"
-SUPPORT_URL="https://discuss.cachyos.org"
-BUG_REPORT_URL="https://github.com/cachyos"
+HOME_URL="https://github.com/spaceCabbage/CabbageOS"
+DOCUMENTATION_URL="https://github.com/spaceCabbage/CabbageOS"
+SUPPORT_URL="https://github.com/spaceCabbage/CabbageOS"
+BUG_REPORT_URL="https://github.com/spaceCabbage/CabbageOS"
 LOGO=cachyos

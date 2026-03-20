@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=CabbageOS Welcome
+Exec=konsole --hold -e /usr/local/bin/cabbage-welcome.sh
+Icon=utilities-terminal
+Terminal=false
+Categories=System;
+X-GNOME-Autostart-enabled=true

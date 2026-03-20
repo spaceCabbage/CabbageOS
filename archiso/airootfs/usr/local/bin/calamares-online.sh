@@ -45,6 +45,14 @@ main() {
 EOF
 
     sudo cp "/usr/share/calamares/settings_${mode}.conf" /etc/calamares/settings.conf
+
+    # --- CABBAGEOS INJECTIONS ---
+    sudo sed -i '/- netinstall/a \    - netinstall-cabbage' /etc/calamares/settings.conf
+    sudo sed -i '/- umount/i \      - shellprocess@cabbage' /etc/calamares/settings.conf
+    sudo sed -i 's/CachyOS/CabbageOS/g' /usr/share/calamares/branding/cachyos/branding.desc 2>/dev/null || true
+    sudo sed -i 's/cachyos/cabbageos/g' /usr/share/calamares/branding/cachyos/branding.desc 2>/dev/null || true
+    # ----------------------------
+
     exec pkexec-wrapper calamares -D6 >> $log
 }
 

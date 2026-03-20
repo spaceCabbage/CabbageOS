@@ -1,7 +1,3 @@
-[$Version]
-update_info=kscreenlocker.upd:0.1-autolock
-
-[Daemon]
-Autolock=false
-LockGrace=300
-LockOnResume=false
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/yehuda/Pictures/sts-130.png
+PreviewImage=file:///home/yehuda/Pictures/sts-130.png
